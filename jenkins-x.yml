@@ -1,0 +1,9 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: dk-test
+pipelineConfig:
+  agent: {}
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: dk-test
+  pipelines: {}
